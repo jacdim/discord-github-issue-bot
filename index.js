@@ -52,7 +52,7 @@ async function handleIssuesCommand(message) {
         .join('\n');
 
       await message.channel.send({
-        content: `📝 **Open Issues in ${repo}:**\n${issueList}`,
+        content: `📝 **Open Issues in *mxrpy* :**\n${issueList}`,
         allowedMentions: { parse: [] },
       });
     }
